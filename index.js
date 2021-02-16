@@ -20,7 +20,7 @@ const WebSocket = require('ws');
 var colorsys = require('colorsys')
 var Milight = require('node-milight-promise'); //Milight API
 var exec = require('child_process').exec;
-const token = "84e56c0b-44de-411c-ab49-c419f7214eef";
+const token = "hsahaa";
 var IP = "192.168.10.178"; //IP van de iBox
 var Color = require('color');
 
