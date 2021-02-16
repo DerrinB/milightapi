@@ -405,7 +405,7 @@ accessory.addService(lightService); // adding the service to the accessory
 // once everything is set up, we publish the accessory. Publish should always be the last step!
 accessory.publish({
   username: "17:51:07:F4:BC:7B",
-  pincode: "678-90-879",
+  pincode: homeKitCode,
   port: 47129,
   category: hap.Categories.LIGHTBULB, // value here defines the symbol shown in the pairing screen
 });
